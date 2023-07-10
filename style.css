@@ -11,8 +11,6 @@
     --font-base: 'Plus Jakarta Sans', sans-serif;
     --font-alt:  'Poppins', sans-serif;
 
-    --color-primary: #4368C7;
-    --color-white: #fff;
     --color-dark: #2D2A27;
     --color-light: rgba(45, 42, 39, 0.5);
 
@@ -100,10 +98,20 @@ p {
     padding-top: 60px;
 }
 
-/* Main CSS */
+/*****************************************
+ Main CSS 
+ ****************************************/
+
+
 .filterTab_area {
     padding-top: 100px;
 }
+
+button.active {
+    background: black;
+    color: #fff;
+}
+
 
 .product_area-products {
     display: grid;
@@ -144,6 +152,14 @@ p {
     border-radius: 140px;
     cursor: pointer;
 }
+
+
+
+#filterTab_cards .card.hide {
+    display: none;
+}
+
+
 
 
 /* Media query */
