@@ -144,3 +144,52 @@ p {
     border-radius: 140px;
     cursor: pointer;
 }
+
+
+/* Media query */
+/*************************************************
+ Media Queries -  Medium And Small Screens 
+ *************************************************/
+ @media screen and (max-width: 1024px) {
+
+    .product_area-products {
+        margin: 0 20px;
+        padding-top: 60px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        overflow-x: auto;
+        overflow-y: auto;
+        text-align:justify;
+    }
+
+    .filterTab_area-buttons {
+        flex-wrap: wrap;
+    }
+
+    .product_area-product-content {
+        text-align: center;
+    }
+
+ }
+
+   /*************************************************
+ Media Queries -  Small Screens 
+ *************************************************/
+ @media screen and (max-width: 600px) {
+
+    .product_area-products {
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+        overflow-x: auto;
+        overflow-y: auto;
+        text-align:justify;
+    }
+
+    .product_area-product-content {
+        text-align: center;
+    }
+ 
+ }
